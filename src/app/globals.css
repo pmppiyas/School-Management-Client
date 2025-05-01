@@ -3,11 +3,25 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --olive: #95cc47;
+  --violet: #bd66ff;
+  --blue: #62abf5;
+  --orange: #ffaf40;
+  --yeallow: #ffdd00;
+  --red: #ff6666;
+  --pink: #ff6682;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-olive: var(--olive);
+  --color-violet: var(--violet);
+  --color-blue: var(--blue);
+  --color-orange: var(--orange);
+  --color-yeallow: var(--yeallow);
+  --color-red: var(--red);
+  --color-pink: var(--pink);
   --font-roboto: var(--font-roboto);
 }
 

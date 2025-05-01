@@ -1,9 +1,11 @@
 import React from "react";
+import Banner from "./Banner";
 
 function page() {
   return (
     <div>
-      <h2>AboutPage</h2>
+      <div className="h-20"></div>
+      <Banner></Banner>
     </div>
   );
 }
