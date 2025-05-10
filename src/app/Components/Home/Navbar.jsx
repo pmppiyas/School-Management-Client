@@ -4,8 +4,10 @@ import { Phone, Menu, X, ChevronDown, Download } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import allAssets from "@/app/_Assets/Assets";
+
 import logo from "@/app/_Assets/logo.png";
+import allAssets from "@/app/_Assets/Assets";
+// import allAssets from "@/app/_Assets/Assets";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -90,7 +92,7 @@ function Navbar() {
   return (
     <header
       ref={navbarRef}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all  max-w-6xl mx-auto duration-300 w-full ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all   mx-auto duration-300 w-full ${
         scrolled ? "bg-background shadow-lg py-4 " : "bg-transparent py-4  "
       }`}
     >

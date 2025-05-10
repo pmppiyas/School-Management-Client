@@ -38,6 +38,10 @@ function Value() {
       iconColor: "text-green-400",
     },
   ];
+
+  
+
+
   return (
     <div className="bg-background py-10 flex flex-col items-center h-max">
       <h1 className="text-3xl font-bold mb-6">Our Care Values</h1>
@@ -49,7 +53,7 @@ function Value() {
             className=" lg:max-w-sm w-full bg-white rounded-xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl"
           >
             {/* Cover Image */}
-            <div className={`h-16  relative`}></div>
+            <div className={`h-16 bg-white relative`}></div>
 
             {/* Profile Image */}
             <div className="flex justify-center">
@@ -63,7 +67,9 @@ function Value() {
             </div>
 
             {/* Profile Content */}
-            <div className={`px-6 py-4 text-center ${card.bgColor} pt-12 inset-0 `}>
+            <div
+              className={`px-6 py-4 text-center ${card.bgColor} pt-12 inset-0 `}
+            >
               <h2 className="text-2xl font-bold mb-2 ">{card.title}</h2>
               <p className="text-gray-600 mb-4">{card.description}</p>
             </div>
